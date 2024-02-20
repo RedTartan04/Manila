@@ -13,6 +13,7 @@ enum Color: String, CaseIterable {
     case orange
     case yellow
     case green
+    case darkblue
     case purple
     case gray
     
@@ -28,6 +29,8 @@ enum Color: String, CaseIterable {
             return String(localized: "Yellow")
         case .green:
             return String(localized: "Green")
+        case .darkblue:
+            return String(localized: "Dark Blue")
         case .purple:
             return String(localized: "Purple")
         case .gray:
@@ -47,6 +50,8 @@ enum Color: String, CaseIterable {
             return "menu yellow"
         case .green:
             return "menu green"
+        case .darkblue:
+            return "menu darkblue"
         case .purple:
             return "menu purple"
         case .gray:
