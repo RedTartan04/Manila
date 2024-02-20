@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B0ACBB2B6D0AFD00B0A6A5 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 01B0ACBA2B6D0AFD00B0A6A5 /* Localizable.xcstrings */; };
 		28486D9827DAD12700FDC8AA /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9727DAD12700FDC8AA /* MainWindow.swift */; };
 		28486D9C27DAE01500FDC8AA /* Welcome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28486D9B27DAE01400FDC8AA /* Welcome.mp4 */; };
 		28486D9E27DAE16700FDC8AA /* WindowMovingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01B0ACBA2B6D0AFD00B0A6A5 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		28486D9727DAD12700FDC8AA /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		28486D9B27DAE01400FDC8AA /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
 		28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowMovingImageView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				28FDF736279E202800573C23 /* Assets.xcassets */,
 				28FDF72D279E1D6F00573C23 /* Info.plist */,
 				28FDF72E279E1D6F00573C23 /* Manila_Finder_Extension.entitlements */,
+				01B0ACBA2B6D0AFD00B0A6A5 /* Localizable.xcstrings */,
 			);
 			path = "Manila Finder Extension";
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 28FDF70A279E1D4800573C23;
 			productRefGroup = 28FDF714279E1D4800573C23 /* Products */;
@@ -222,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B0ACBB2B6D0AFD00B0A6A5 /* Localizable.xcstrings in Resources */,
 				28FDF737279E202800573C23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -338,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
