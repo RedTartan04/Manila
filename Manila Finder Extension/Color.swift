@@ -8,16 +8,18 @@
 import Foundation
 
 enum Color: String, CaseIterable {
+    case blue
     case red
     case orange
     case yellow
     case green
-    case blue
     case purple
     case gray
     
     var localizedName: String {
         switch self {
+        case .blue:
+            return String(localized: "Blue")
         case .red:
             return String(localized: "Red")
         case .orange:
@@ -37,6 +39,8 @@ enum Color: String, CaseIterable {
     
     var menuImageName: String {
         switch self {
+        case .blue:
+            return "menu blue"
         case .red:
             return "menu red"
         case .orange:
